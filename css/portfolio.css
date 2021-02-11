@@ -12,7 +12,7 @@ li {
 .bcg-section {
   background-color: rgba(47, 48, 58, 1);
 }
-
+/* Навигация */
 .logo {
   color: var(--blue-hover);
   font-family: 'Raleway', sans-serif;
@@ -64,17 +64,12 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.b-title,
+
 .btn-title,
 .a-title {
   color: var(--white-text);
 }
-.addres,
-.a-title {
-  color: var(--white-text06);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-}
+
 .btn {
   color: var(--black-text);
 }
@@ -88,4 +83,11 @@ li {
 }
 .text {
   color: var(--grey-text);
+}
+/* Футер */
+.addres,
+.a-title {
+  color: var(--white-text06);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
