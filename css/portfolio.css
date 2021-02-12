@@ -8,11 +8,27 @@
 li {
   list-style-type: none;
 }
+/* Утилитарти */
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+  /* outline: solid 2px tomato; */
+}
 
 .bcg-section {
   background-color: rgba(47, 48, 58, 1);
 }
 /* Навигация */
+.navi-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
 .logo {
   color: var(--blue-hover);
   font-family: 'Raleway', sans-serif;
@@ -21,13 +37,36 @@ li {
   line-height: 31px;
   letter-spacing: 0.03em;
 }
-.logo-text {
+.logo-text-frt {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
+}
+.logo-text {
+  color: var(--blue-hover);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin: 0;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 93px;
+  padding: 0;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 .site-nav a {
   color: var(--black-text);
@@ -55,6 +94,17 @@ li {
 .contacts:focus {
   color: var(--blue-hover);
 }
+.contacts-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.contacts-list .mail {
+  padding-right: 50px;
+}
 .site-nav .nav-text-s {
   color: var(--blue-hover);
   font-family: 'Roboto', sans-serif;
@@ -64,6 +114,7 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+/* Кнопки */
 
 .btn-title,
 .a-title {
@@ -85,9 +136,39 @@ li {
   color: var(--grey-text);
 }
 /* Футер */
+.logo-footer {
+  color: var(--white-text);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.container .footer {
+  padding: 60px 0 60px 0;
+}
+.footer-address {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.footer-address p {
+  margin: 0;
+}
+.footer-list {
+  padding: 0;
+  margin: 0;
+}
+.footer-list li {
+  margin-top: 9px;
+}
 .addres,
 .a-title {
   color: var(--white-text06);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  text-decoration: none;
 }
