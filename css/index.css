@@ -4,6 +4,7 @@
   --black-text: rgba(33, 33, 33, 1);
   --blue-hover: rgba(33, 150, 243, 1);
   --grey-text: rgba(117, 117, 117, 1);
+  --white-border: rgba(236, 236, 236, 1);
 }
 .visually-hidden {
   position: absolute;
@@ -105,11 +106,6 @@ li {
   text-decoration: none;
   margin: 0;
 }
-/* .navi-flex {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px;
-} */
 
 .site-nav {
   display: flex;
@@ -216,6 +212,18 @@ li {
   text-decoration: none;
 }
 /* Секции */
+
+.advant-title {
+  margin: 0 0 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+}
 
 .section-list-advant {
   display: flex;
