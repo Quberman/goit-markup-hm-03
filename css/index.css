@@ -5,7 +5,12 @@
   --blue-hover: rgba(33, 150, 243, 1);
   --grey-text: rgba(117, 117, 117, 1);
   --white-border: rgba(236, 236, 236, 1);
+  --white-back: rgba(245, 244, 250, 1);
 }
+html {
+  overflow-x: hidden;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -259,6 +264,10 @@ li {
 .title-text-list {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.back-color {
+  background-color: var(--white-back);
 }
 
 .title-text {
